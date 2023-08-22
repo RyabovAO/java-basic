@@ -10,5 +10,7 @@ public class Task3 {
         arr[0] = arr[arr.length - 1];
         arr[arr.length - 1] = foo;
         System.out.println(Arrays.toString(arr));
+        int sum = arr[0] + arr[arr.length/2];
+        System.out.println(sum);
     }
 }
